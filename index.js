@@ -1,6 +1,6 @@
 const express = require('express')
-const exhbs = require('express-handlebars')
 const bodyParser = require('body-parser')
+const userController = require('./controller/users')
 const app = express()
 const passport = require('passport')
 const morgan = require('morgan')
